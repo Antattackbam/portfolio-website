@@ -83,12 +83,12 @@ input, select, textarea {
 	}
 
 	body {
-		background-color: #183026;
-		background-image: url("images/overlay.png"), url("../../images/bg.jpg");
-		background-repeat: repeat, no-repeat;
-		background-size: auto, cover;
-		background-position: top left, center 0;
-		background-attachment: fixed, fixed;
+		background-color: #000000e8;
+		background-image: url("https://images.wallpaperscraft.com/image/stars_starry_sky_purple_137185_3840x2160.jpg");
+		background-repeat: no-repeat;
+		background-size: cover;
+		background-position: center;
+		background-attachment: fixed;
 		font-family: 'Source Sans Pro', sans-serif;
 		font-size: 18pt;
 		line-height: 1.75em;
@@ -100,7 +100,7 @@ input, select, textarea {
 	}
 
 		body.is-scroll {
-			background-attachment: scroll, scroll;
+			background-attachment: fixed;
 			background-size: auto, 100% auto;
 		}
 
@@ -201,6 +201,11 @@ input, select, textarea {
 	header {
 		margin-bottom: 1em;
 	}
+
+		header h1{
+	
+			text-shadow: .1rem .1rem #000;
+		}
 
 		header p {
 			display: block;
@@ -2004,7 +2009,7 @@ input, select, textarea {
 		text-shadow: 0 0 0.5px rgba(255, 255, 255, 0.25);
 		text-align: center;
 		margin: 0;
-		padding: 14em 0 14em 0;
+		padding: 0 0 14em 0;
 		cursor: default;
 	}
 
@@ -2092,10 +2097,10 @@ input, select, textarea {
 	.banner {
 		position: relative;
 		color: #000;
-		text-shadow: 0 0 0.5px rgba(255, 255, 255, 0.25);
+		/* text-shadow: 0 0 0.5px rgba(51, 2, 2, 0.979); */
 		text-align: center;
 		border: .1em solid black;
-		background-color: #39705f;
+		background-color:  rgba(255, 255, 255, 0.363);
 		padding: 5em 0 5em 0;
 		margin: 0;
 		background-size: 125% auto;
@@ -2358,10 +2363,10 @@ input, select, textarea {
 
 			body {
 				background-color: #203936;
-				background-image: url("images/overlay.png"), url("../../images/bg-alt.jpg");
-				background-repeat: repeat, no-repeat;
-				background-size: auto, 100% auto;
-				background-position: top left, top center;
+				background-image: url("https://images.wallpaperscraft.com/image/stars_starry_sky_purple_137185_3840x2160.jpg");
+				background-repeat: no-repeat;
+				background-size: auto;
+				background-position: center;
 				background-attachment: scroll, scroll;
 				font-size: 14pt;
 			}
