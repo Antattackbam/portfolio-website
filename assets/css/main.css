@@ -86,7 +86,7 @@ input, select, textarea {
 		background-color: #000000e8;
 		background-image: url("https://images.wallpaperscraft.com/image/stars_starry_sky_purple_137185_3840x2160.jpg");
 		background-repeat: no-repeat;
-		background-size: cover;
+		background-size: stretch;
 		background-position: center;
 		background-attachment: fixed;
 		font-family: 'Source Sans Pro', sans-serif;
