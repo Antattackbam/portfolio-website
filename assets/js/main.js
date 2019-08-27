@@ -93,7 +93,7 @@
 		$('.gallery').poptrox({
 			useBodyOverflow: false,
 			usePopupEasyClose: false,
-			overlayColor: '#0a1919',
+			overlayColor: '#000',
 			overlayOpacity: 0.75,
 			usePopupDefaultStyling: false,
 			usePopupCaption: true,

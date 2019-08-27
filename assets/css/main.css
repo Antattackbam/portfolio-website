@@ -85,7 +85,7 @@ input, select, textarea {
 	body {
 		background-color: #000;
 		background-image: url("https://images.wallpaperscraft.com/image/stars_starry_sky_purple_137185_3840x2160.jpg");
-		background-repeat: repeat;
+		background-repeat: repeat-y;
 		background-size: stretch;
 		background-position: center;
 		background-attachment: fixed;
