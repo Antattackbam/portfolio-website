@@ -106,12 +106,12 @@
 		}
 
 	body {
-		background-color: #183026;
-		background-image: url('images/overlay.png'), url('../../images/bg.jpg');
-		background-repeat: repeat, no-repeat;
-		background-size: auto, cover;
-		background-position: top left, center 0;
-		background-attachment: fixed, fixed;
+		background-color: #000;
+		background-image: url('https://images.wallpaperscraft.com/image/stars_starry_sky_purple_137185_3840x2160.jpg');
+		background-repeat: repeat;
+		background-size: auto;
+		background-position: center 0;
+		background-attachment:  fixed;
 		font-family: 'Source Sans Pro', sans-serif;
 		font-size: 18pt;
 		line-height: 1.75em;
@@ -179,12 +179,12 @@
 	a {
 		@include vendor('transition', ('border-color 0.35s ease-in-out', 'color 0.35s ease-in-out'));
 		color: #35b88f;
-		text-shadow: 0 0 0.5px rgba(53, 184, 143, 0.25);
+		text-shadow: 0 0 0.5px #000;
 		text-decoration: none;
-		border-bottom: dotted 1px rgba(53, 184, 143, 0.5);
+		border-bottom: dotted 1px #000;
 
 		&:hover {
-			border-bottom-color: rgba(53, 184, 143, 0);
+			border-bottom-color: #000;
 		}
 	}
 
@@ -638,7 +638,7 @@
 				top: 0;
 				width: 50%;
 				height: 100%;
-				background: #152E33;
+				background: #000;
 				overflow: hidden;
 
 				img {
@@ -866,14 +866,13 @@
 		color: #fff;
 		text-shadow: 0 0 0.5px rgba(255, 255, 255, 0.25);
 		text-align: center;
-		background: #35b88f url('images/banner.svg') bottom center no-repeat;
 		padding: 5em 0 5em 0;
 		margin: 0;
 		background-size: 125% auto;
 
 		.button {
 			color: #35b882;
-			text-shadow: 0 0 0.5px rgba(53, 184, 130, 0.25);
+			text-shadow: 0 0 0.5px #000;
 		}
 
 		header {
@@ -930,8 +929,8 @@
 
 			&:hover {
 				color: #35b88f;
-				text-shadow: 0 0 0.5px rgba(69, 200, 159, 0.25);
-				border-bottom-color: rgba(53, 184, 143, 0.5);
+				text-shadow: 0 0 0.5px #000;
+				border-bottom-color: #000;
 			}
 		}
 
@@ -1115,12 +1114,12 @@
 		/* Basic */
 
 			body {
-				background-color: #203936;
-				background-image: url('images/overlay.png'), url('../../images/bg-alt.jpg');
-				background-repeat: repeat, no-repeat;
-				background-size: auto, 100% auto;
-				background-position: top left, top center;
-				background-attachment: scroll, scroll;
+				background-color: #000;
+				background-image: url('https://images.wallpaperscraft.com/image/stars_starry_sky_purple_137185_3840x2160.jpg');
+				background-repeat: repeat;
+				background-size: auto;
+				background-position: top center;
+				background-attachment: fixed;
 				font-size: 14pt;
 			}
 
@@ -1413,19 +1412,19 @@
 			}
 
 		/* Poptrox */
-			.poptrox-popup {
-				.nav-next,
-				.nav-previous {
-					opacity: 1.0;
+			// .poptrox-popup {
+			// 	.nav-next,
+			// 	.nav-previous {
+			// 		opacity: 1.0;
 
-					&:before {
-						display: none;
-					}
-				}
+			// 		&:before {
+			// 			display: none;
+			// 		}
+			// 	}
 
-				.closer {
-					opacity: 0.5;
-				}
-			}
+			// 	.closer {
+			// 		opacity: 0.5;
+			// 	}
+			// }
 
 	}
